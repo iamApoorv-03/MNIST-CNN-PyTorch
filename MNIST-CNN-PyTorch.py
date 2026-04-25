@@ -36,7 +36,7 @@ class SimpleMedicalCNN(nn.Module): # our parent class is nn.Module ,SimpleMedica
   """
   Simple CNN for medical image classification
 
-  Architecture:
+ 
   Input (28×28×1)
   → Conv2d(1, 32, 3) + ReLU
   → MaxPool2d(2)
